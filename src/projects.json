@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Pokedex",
+    "description": "Explora el fascinante mundo de los Pokémon con nuestra Pokedex. Descubre información detallada, estadísticas y curiosidades sobre cada criatura. ¡Embárcate en una aventura para ser el mejor entrenador!"
+  },
+  {
+    "id": 2,
+    "name": "Rick&Morty",
+    "description": "Sumérgete en el caótico universo de Rick y Morty. Explora proyectos web inspirados en las divertidas y alocadas aventuras de este dúo interdimensional. ¡Prepárate para experimentar la locura de la ciencia ficción de una manera única!"
+  },
+  {
+    "id": 3,
+    "name": "Ecommerce",
+    "description": "Crea tu propio imperio comercial con nuestro proyecto web de Ecommerce. Desde la gestión de productos hasta la experiencia de compra del usuario, te proporcionamos las herramientas para llevar tu tienda en línea al siguiente nivel. ¡Convierte tus sueños empresariales en realidad!"
+  },
+  {
+    "id": 4,
+    "name": "Weather-app",
+    "description": "Mantente siempre un paso adelante del clima con nuestra Weather App. Obtén pronósticos precisos, información meteorológica detallada y alertas en tiempo real. ¡Planifica tus actividades diarias con confianza y nunca te sorprendas por las condiciones climáticas!"
+  }
+]
