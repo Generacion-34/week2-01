@@ -1,4 +1,9 @@
 <h3>Servicios</h3>
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa odio, tenetur magni hic quasi dicta, voluptates minus
-  odit incidunt pariatur, ex ipsam facere expedita beatae quas nesciunt nam distinctio blanditiis?</p>
+{{#each services}}
+
+<ul>
+  <li><a href="/services/{{this.id}}">{{this.name}}</a></li>
+</ul>
+
+{{/each}}

@@ -1,4 +1,8 @@
 <h3>Estos son mis projectos: projects</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quisquam dolore blanditiis officiis. Delectus et
-  tenetur, molestiae quo alias iste tempore quasi quos nihil deserunt perspiciatis, aspernatur harum illum. Quasi
-  laboriosam eligendi dicta eveniet aspernatur.</p>
+
+{{#each projects}}
+
+<ul>
+  <li><a href="/projects/{{this.id}}">{{this.name}}</a></li>
+</ul>
+{{/each}}

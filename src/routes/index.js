@@ -19,8 +19,10 @@ router.get('/services', (req, res) => {
 
 router.get('/services/:id', (req, res) => {
     // console.log(req.params.id);//{ id: '5' }
-    const { id } = req.params
-    return res.send(`<h3>Este es el servicio de id: ${id}</h3> `)
+    const { id } = req.params // ->{id = 2}
+    const service = services.find((service) => service.id === parseInt(id))
+    // console.log(service);
+    return res.render('services_id', { service })
 })
 
 router.get('/about-me', (req, res) => {
@@ -34,7 +36,11 @@ router.get('/projects', (req, res) => {
 
 router.get('/projects/:id', (req, res) => {
     const { id } = req.params
-    return res.send(`<h3>Este es mi proyecto de id = ${id}</h3>`)
+    const project = projects.find((project) => {
+        return project.id === parseInt(id)
+    })
+    // console.log(project);s
+    return res.render("project_id", { project })
 })
 
 module.exports = router;
